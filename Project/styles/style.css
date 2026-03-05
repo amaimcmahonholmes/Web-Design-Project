@@ -1,6 +1,5 @@
 
 nav{
-background-color:#b0e300 ;
 padding : 5px;
 }
 nav ul{
@@ -9,23 +8,26 @@ nav ul{
 }
 nav ul li{
     list-style-type: none;
-    background-color: #b0e300;
+    background-color: #C2ECF8;
     display : inline;
     padding : 15px;
     margin : 5px;
-    border : 2px solid red;
-    border-radius: 10px;
+    border : 2px solid #576B7A;
+    border-radius: 5px;
+    border-style:dotted;
     padding : 15px;
 }
 nav ul li a{
-    color: white;
+    color: #576B7A;
     text-decoration: none;
 }
 nav ul li:hover{
-    background: rgb(112,27,186);
+    background: #85AEBF;
+    color: #C2ECF8;
 }
 header {
-    background-color: #b0e300;
+    background-image: url("../images/waves.jpg");
+    background-size:100%;
     padding : 10px;
 }
 footer{
@@ -42,16 +44,25 @@ footer{
 body{
     font-family : Verdana;
     margin : 0;
+    background-color: #C8EDFF;
 }
-.product{
-    text-align: center;
-    border: 5px solid black;
-    margin: 10px;
-    padding-right: 15px;
-    padding-left : 15px;
-}
+
 logo{
     padding-bottom: 5px;
 }
 
+h1{
+    background-color: #C9EDFF;
+    display: inline-block;
+    color: #123340;
+}
+
+#dolphins{
+    height: 80%;
+    width: 80%;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule-style: dashed;
+
+}
 
