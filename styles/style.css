@@ -13,6 +13,7 @@ nav ul li{
     border-radius: 5px;
     border-style:dotted;
     padding : 15px;
+    
 }
 nav ul li a{
     color: #576B7A;
@@ -33,12 +34,6 @@ footer{
     background-color: #C8EDFF;
 }
 
-
-
-
-
-
-
 logo{
     padding-bottom: 5px;
 }
@@ -58,4 +53,26 @@ h1{
     column-rule-style: dashed;
 
 }
+body{
+    background-color: rgb(234, 255, 253);
+    
+}
+
+.required{
+    font-weight: bold;  
+    color: red;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+.form{
+    border-style: dashed;
+    border-color: black ;
+    background-color: white;
+}
+
+
+
 
