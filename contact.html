@@ -1,40 +1,75 @@
 <!DOCTYPE html>
-<html lang ="en">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-    <meta name = "viewport" content="width=device-width,inital-scale=1.0">
-    <meta name = "description" content="Team Page of Fictional Company Ltd. Website.">
-    <meta name = "keywords" content="Boilerplate, Section, Footer">
-	<title>Contact Information</title>
-    <link rel = "stylesheet" href="styles/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Contact Page of Marine Mammals Website">
+<meta name="keywords" content="Contact, Marine, Mammals">
+<link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
+
+<title>Contact</title>
+
+<link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-	<header>
-        <img class="Logo" src="images/Green.jpg" alt="GreenSeal" width="110">
-		<h1>Fictional Company</h1>
-        <nav>
-        <ul>
-            <li id="active"><a href="index.html"> Index </a></li>
-            <li> <a href = "about.html"> About </a></li>
-            <li> <a href = "contact.html"> Contact </a></li>
-            <li> <a href = "service.html"> Service </a></li>
+
+<header>
+      <nav>
+    <ul>
+      <li id="active"><a href="index.html">Home</a></li>
+      <li>
+        <a href="about.html">About</a>
+        <ul class="dropdown">
+          <li><a href="about.html#conservation">Conservation</a></li>
         </ul>
-        </nav>
-	</header>
-	<main>
-        <form action = "contact.html" method = "post">
-            <label for="first_name">First Name:<span class="required">*</span></label>
-            <input type = "text" name = "first_name" id = "first_name" autofocus required><br>
-            <label for="last_name">Last Name:<span class="required">*</span></label>
-            <input type = "text" name = "last_name" id = "last_name" autofocus required><br>
-            <label for="email">Email:<span class="required">*</span></label>
-            <input type = "text" name = "email" id = "email" autofocus required><br>
-        </form>
-        </section>
-        
-    </main>
-    <footer>
-        <p>Copyright Some Company 2026</p>
-    </footer>
+      </li>
+      <li>
+        <a href="services.html">Services</a>
+        <ul class="dropdown">
+                    <li><a href="services.html#information">Information</a></li>        </ul>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+        <ul class="dropdown">
+          <li><a href="contact.html#form">Form</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <h1 id="top">Marine Mammals</h1>
+</header>
+
+<main>
+
+<section id="form">
+
+<h2>Contact Form</h2>
+
+<form action="http://foo.com" method="post">
+
+<label for="full_name">Name:</label>
+<input type="text" name="full_name" id="full_name" required autofocus><br>
+
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+
+<label for="message">Query:</label>
+<textarea id="message" name="message" rows="6" cols="40" maxlength="200"
+placeholder="Your message must be less than 200 characters"></textarea><br>
+
+<input type="submit" value="Submit">
+<input type="reset">
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+<p>Created 2026</p>
+</footer>
+
 </body>
 </html>

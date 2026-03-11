@@ -5,22 +5,34 @@
     <meta name = "viewport" content="width=device-width,inital-scale=1.0">
     <meta name = "description" content="Home Page of Fictional Company Ltd. Website.">
     <meta name = "keywords" content="Boilerplate, Section, Footer">
-	<title>Conservation</title>
+	<link rel="icon" href="images/favicon/favicon.ico" type="image/gif">
+    <title>Conservation</title>
     <link rel = "stylesheet" href="styles/style.css">
-</head>
-<body>
-	<header>
-        <img class="Logo" src="images/Green.jpg" alt="GreenSeal" width="110">
-		<h1></h1>
-        <nav>
-        <ul>
-            <li id="active"><a href="index.html"> Index </a></li>
-            <li> <a href = "about.html"> About </a></li>
-            <li> <a href = "contact.html"> Contact </a></li>
-            <li> <a href = "service.html"> Service </a></li>
+<header>
+      <nav>
+    <ul>
+      <li id="active"><a href="index.html">Home</a></li>
+      <li>
+        <a href="about.html">About</a>
+        <ul class="dropdown">
+          <li><a href="about.html#conservation">Conservation</a></li>
         </ul>
-        </nav>
-	</header>
+      </li>
+      <li>
+        <a href="services.html">Services</a>
+        <ul class="dropdown">
+                    <li><a href="services.html#information">Information</a></li>        </ul>
+      </li>
+      <li>
+        <a href="contact.html">Contact</a>
+        <ul class="dropdown">
+          <li><a href="contact.html#form">Form</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <h1 id="top">Marine Mammals</h1>
+</header>
 	<main>
         <article>
             <h2>About Our Company</h2>
