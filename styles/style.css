@@ -18,10 +18,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../images/waves.jpg");
+  background-image: url("../images/waves.png");
   border-style: groove;
   border-color: black;
   color: white;
+  background-size: contain;
+  background-repeat:repeat-x;
 }
 
 .Logo{
@@ -113,9 +115,9 @@ nav ul li ul.dropdown li a:hover {
 }
 
 h1{
-background-color:#2f00ff7a;
+background-color:#15131c;
 display:inline-block;
-color:#ffffff;
+color:#b82323;
 }
 
 h3{
@@ -150,10 +152,13 @@ width:220px;
 
 footer{
 text-align:center;
-padding:20px;
-background:#222;
+background:#270089;
 color:white;
 font-family: Verdana;
+margin : 0;
+position : fixed;
+bottom : 0px;
+width : 100%;
 }
 
 html {
@@ -206,5 +211,36 @@ label{
 }
 a{
   text-decoration: none;
-  color:rgb(0, 26, 255);
+  color:rgb(162, 0, 255);
+}
+iframe{
+  display: block;
+  padding: 10px;
+}
+aside {
+  width: 50%;
+  margin-left: 15px;
+  float:inline-end;
+  font-style: italic;
+  background-color: rgba(0, 136, 255, 0.351);
+}
+
+.maps{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom:50px;
+
+}
+
+.maps iframe{
+  flex: 2;
+  max-width: 100%;
+}
+
+.maps aside{
+  flex:2;
+  border-style:dotted;
+  border-color: #000411;
+  margin-top: 10px;
 }
