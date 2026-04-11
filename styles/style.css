@@ -245,3 +245,15 @@ aside {
   border-color: #000411;
   margin-top: 10px;
 }
+table{
+  border-style: groove;
+  border-color: #000411;
+}
+th{
+  border-style:groove;
+  border-color:#000411;
+}
+.gie-single{
+  float:right;
+  margin:10px;
+}
