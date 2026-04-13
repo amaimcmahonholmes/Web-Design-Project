@@ -257,3 +257,6 @@ th{
   float:right;
   margin:10px;
 }
+:target{
+  background: #2f00ff7a;
+  display:inline;
