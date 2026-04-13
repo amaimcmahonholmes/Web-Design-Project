@@ -2,12 +2,21 @@
 <html lang ="en">
 <head>
 	<meta charset="UTF-8">
-    <meta name = "viewport" content="width=device-width,inital-scale=1.0">
-    <meta name = "description" content="Home Page of Fictional Company Ltd. Website.">
-  <meta name = "keywords" content="Boilerplate, Section, Footer">
+    <meta name = "viewport" content="width=device-width,initial-scale=1.0">
+    <meta name = "description" content="Gives information about conservation, including the IUCN conservation statuses, information from the Irish Whale and Dolphin Society & National Parks and Wildlife Service on Cetaceans and information from Seal Rescue Ireland on Pinnipeds">
+  <meta name = "keywords" content="Cetaceans, Pinnipeds, Whale,Seal,Dolphin,IUCN, Marine, Mammal, Threatened, Species, Ireland, Conservation">
 <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon">
   <title>Conservation</title>
     <link rel = "stylesheet" href="styles/style.css">
+    <style>
+      #wallpaper p{
+        margin-left:10px;
+      }
+      .wallpaper h4{
+        margin-right:20px;
+        column-span:all;
+      }
+    </style>
     </head>
 <body>
   <header>
@@ -17,7 +26,7 @@
         
         <li id="active"><a href="about.html">About</a>
           <ul class="dropdown">
-            <li><a href="about.html#conservation">Conservation</a></li></ul></li></li>
+            <li><a href="about.html#conservation">Status</a></li></ul></li>
           
         <li><a href="services.html">Services</a>
           <ul class="dropdown">
@@ -33,190 +42,88 @@
     <h1 id="top">Marine Mammals</h1>
   </header>
   <main>
-<h3>Marine Mammals in Ireland</h3>
+<h2>Marine Mammals in Ireland</h2>
 <section id="Ireland">
-  <p id = "marine">Marine Mammals that can be found in Ireland. Such Marine Mammal Species are <a href="about.html#cetaceans">Cetaceans</a> and <a href="about.html#pinnipeds">Pinnipeds</a></p>
-  <h4>The <abbr title="The International Union for Convservation of Nature">IUCN</abbr> Red List of Threatened Species</h4>
+  <p>In Ireland, there are two groups of mammals that inhabit almost exclusively the marine environment, cetaceans and seals.</p>
+  <p>Under the Wildlife Acts 1976 to 2018, all cetaceans and seals are protected species listed on the 5th Schedule. Under this Act, Natural Heritage Areas (NHAs) may be established to protect habitats or species. Whilst some terrestrial and coastal NHAs may encompass adjacent marine areas, no NHAs have been established for marine mammals to date.</p>
+    <p>Under the OSPAR Convention to Protect the Marine Environment of the North East Atlantic, Ireland committed to establishing marine protected areas to protect biodiversity (i.e., OSPAR MPAs). No legislation is currently used in Ireland to legally underpin protected areas established to fulfil commitments under international conventions. Therefore, since the creation of OSPAR MPAs would not afford any legal protection to the relevant areas on their own, Ireland established a number of its SACs as OSPAR MPAs. Two of these, Roaringwater Bay & Islands MPA and Blasket Islands MPA, were submitted for the Harbour Porpoise.</p>
+    <p>The Tyoes of Marine Mammals in Ireland consist of : </p>
+    <ol>
+      <li>Dolphins</li>
+      <li>Whales</li>
+      <li>Seals</li>
+    </ol>
+  
+    <h3>The <abbr title="The International Union for Convservation of Nature">IUCN</abbr> Red List of Threatened Species</h3>
   <table>
-  <tr><th>Least Concern<br><meter min="0" max="50" value="50" low="30" high="45" optimum="50"></meter></th><th><a href="about.html#atlanticwhite">Atlantic White Sided Dolphin</a><br><a href="about.html#beluga">Beluga Whale</a><br><a href="about.html#blainville">Blainville's Beaked Whale</a><br><a href="about.html#bottlenose">Bottlenose Dolphin</a><br><a href="about.html#bowhead">Bowhead Whale</a><br><a href="about.html#common">Common Dolphin</a><br><a href="about.html#cuvierbeaked">Cuvier's Beaked Whales</a><br><a href="about.html#gervaisbeaked">Gervais Beaked Whale</a><br><a href="about.html#harbour">Harbour Porpoise</a><br><a href="about.html#humpback">Humpback Whale</a><br><a href="about.html#longfinnedpilot">Long-Finned Pilot Whale</a><br><a href="about.html#minke">Minke Whale</a><br><a href="about.html#pygmysperm">Pygmy Sperm Whale</a><br><a href="about.html#risso">Risso's Dolphin</a><br><a href="about.html#sowerbybeaked">Sowerby's Beaked Whale</a><br><a href="about.html#striped">Striped Dolphin</a><br><a href="about.html#truebeaked">True's Beaked Whale</a><br><a href="about.html#whitebeaked">White-Beaked Dolphin</a></th></tr>
-    <tr><th>Near Threatened<br><meter min="0" max="50" value="40" low="30" high="45" optimum="50"></meter></th><th><a href="about.html#falsekiller">False Killer Whale</a><br><a href="about.html#northernbottlenose">Northern Bottlenose Whale</a></th></tr>
-      <tr><th>Vulnerable<br><meter min="0" max="50" value ="30" low="30" high="45" optimum="50"></meter></th><th><a href="about.html#fin">Fin Whale</a></th></tr>
-        <tr><th>Endangered<br><meter min="0" max="50" value="20" low="30" high="45" optimum="50"></meter></th><th><a href= "about.html#blue">Blue Whale</a><br><a href="about.html#sei">Sei Whale</a></th></tr>
-          <tr><th>Critically Endangered<br><meter min="0" max="50" value="10" low="30" high="45" optimum="50"></meter></th><th><a href="about.html#northatlanticright">North Atlantic Right Whale</a></th></tr>
-          <tr><th>Data Deficient</th><th><a href="about.html#killer">Killer Whale</a></th></tr>
+    <thead>
+      <tr>
+        <th id="conservation">Conservation Status</th>
+        <th>Species</th>
+      </tr>
+    </thead>
+    <tbody><tr>
+      <th>Least Concern<br><meter min="0" max="50" value="50" low="30" high="45" optimum="50"></meter></th><th>Atlantic White Sided Dolphin<br>Beluga Whale<br>Blainville's Beaked Whale<br>Bottlenose Dolphin<br>Bowhead Whale<br>Common Dolphin<br>Cuvier's Beaked Whales<br>Gervais Beaked Whale<br>Harbour Porpoise<br>Humpback Whale<br>Long-Finned Pilot Whale<br>Minke Whale<br>Pygmy Sperm Whale<br>Risso's Dolphin<br>Sowerby's Beaked Whale<br>Striped Dolphin<br>True's Beaked Whale<br>White-Beaked Dolphin</th>
+    </tr>
+    <tr>
+      <th>Near Threatened<br><meter min="0" max="50" value="40" low="30" high="45" optimum="50"></meter></th><th>False Killer Whale<br>Northern Bottlenose Whale</th>
+    </tr>
+      <tr>
+        <th>Vulnerable<br><meter min="0" max="50" value ="30" low="30" high="45" optimum="50"></meter></th><th>Fin Whale</th>
+      </tr>
+        <tr>
+          <th>Endangered<br><meter min="0" max="50" value="20" low="30" high="45" optimum="50"></meter></th><th>Blue Whale<br>Sei Whale</th>
+        </tr>
+          <tr>
+            <th>Critically Endangered<br><meter min="0" max="50" value="10" low="30" high="45" optimum="50"></meter></th><th>North Atlantic Right Whale</th>
+          </tr>
+          <tr>
+            <th>Data Deficient</th><th>Killer Whale</th>
+          </tr>
+        </tbody>
+  
 </table>
 <br>
  <table>
-    <tr><th>Least Concern<br><meter min="0" max="50" value="50" low="30" high="45" optimum="50"></meter></th><th><a href="about.html#commonseal">Common Seal</a><br><a href="about.html#greyseal">Grey Seal</a></th></tr>
+  <thead>
+    <tr>
+      <th>Conservation Status</th>
+      <th>Species</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><th>Least Concern<br><meter min="0" max="50" value="50" low="30" high="45" optimum="50"></meter></th><th>Common Seal<br>Grey Seal</th></tr>
+  </tbody>
   </table>
 </section>
-<h3>Cetaceans</h3>
-<section id = "cetaceans">
+<article class="wallpaper">
+  <h4>Cetaceans:</h4>
   <p>We are very fortunate in Ireland to have at least 26 cetacean species present from the diminutive harbour porpoise all the way up to the largest animal that ever lived, the blue whale.</p>
-  <p>Some species are migratory and follow food here like humpback and fin whales off the southwest and south coast while others are resident year-round in special places like the Shannon Estuary where at least 145 bottlenose dolphins live.<br>A myriad of marine habitats occur in our waters from sheltered bays to the continental shelf and complex canyon systems affording each of our 25 specialised species a place to live, feed and breed which makes Irish waters one of the most important places in Europe for cetaceans.</p>
-
-<section id = "atlanticwhite">
-  
-  <h4>Atlantic White Sided Dolphin</h4>
-  <aside><a id='ditAU-eEQLNT8nw4DYh1cQ' class='gie-single' href='https://www.gettyimages.com/detail/1042522694' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'ditAU-eEQLNT8nw4DYh1cQ',sig:'4qW8OOijKOcEWxARNMURxWaro8tuxHGMVwyZ2hgSnsw=',w:'50px',h:'50px',items:'1042522694',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description : They are a very stocky dolphin with a small beak, streamlined head, tall falcate dorsal fin and robust tail stock. They are dark on top and light coloured underneath but predominantly light grey along their sides with a white patch below the dorsal fin and a characteristic orange flare on the tail stock.<br>Behaviour: They tend to move fast at the surface revealing the orange flare when diving. Breaching regularly occurs but bow riding is rare.<br>In Ireland: This species occurs in offshore waters along the continental shelf mainly to the west and northwest. Inshore sightings along the south and southwest dolphin hotspots are extremely rare. A mass stranding involving 19 dolphins at Killala Bay, Co. Mayo in September 1994 became the first time in Europe that post-mortems for all animals involved in a mass stranding were carried out.</p>
-
-</section>
-
-<section id = "beluga">
-  
-  <h4>Beluga Whale</h4>
-  <aside><a id='dW7SqS-0SttOY_nQSTFLjQ' class='gie-single' href='https://www.gettyimages.com/detail/534963224' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'dW7SqS-0SttOY_nQSTFLjQ',sig:'9g8Amu6dJ4HG-ufACE5vj-yIYmgSGoq-mDQ1hUkFomA=',w:'50px',h:'50px',items:'534963224',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description: Adults are the only pure white species of cetacean but calves may be a light grey colour. They are a bulky species with a pronounced bulbous head, broad flippers, without a dorsal fin.<br>Behaviour: This species is extremely inquisitive and sociable. They rarely breach but are able to move through shallow water easily due to the flexibility of their head’s movements because their cervical vertebrae are not fused in place.<br>In Ireland: Sightings of this Arctic vagrant are extremely rare in Irish waters, which are well south of their known range. The first Irish record was off Clare Island, Co. Mayo in July 1948 which was validated by the Irish Naturalists’ Journal. The first image of a beluga whale in Ireland was captured on the shores of Dunseverick Harbour Co. Antrim in July 2015.</p>
-
-</section>
-
-<section id = "blainville">
-  
-  <h4>Blainville's Peaked Whale</h4>
-  <p>Description: A bulky whale with a diagnostically exaggerated “s-shaped” jawline where the lower jaw rises above the beak, which is very obvious in males where its paired teeth occur. The dorsal fin is tall and almost sickle like while the flippers are proportionately small. The colouration is largely brown on top and along the sides but its underside is coloured white. Older males may be extensively scarred from interactions with conspecific males.<br>Behaviour: Deep dives are undertaken to 1,400 m which may take 20-50 minutes. They tend to travel in small social group.<br>In Ireland: Only a single sighting record exists in Irish waters from May, 2016 near the Rockall Plateau where two beaked whales were identified as Blainville’s based on their observed jawline and colouration (Irish Naturalist Journal). To date IWDG has not validated any sighting or stranding records for this species.</p>
-  
-</section>
-
-<section id = "bottlenose">
-  
-  <h4>Bottlenose Dolphin</h4>
-  <aside><a id='niegNz2DSC5caI4qIPGhmw' class='gie-single' href='https://www.gettyimages.com/detail/541063840' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'niegNz2DSC5caI4qIPGhmw',sig:'vsYBAXY4e68eQIgb6IFWR-ZNDMrzjUrhGfaCg8a9S9s=',w:'50px',h:'50px',items:'541063840',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description: A large, robust dolphin with a characteristically short, stubby beak and a curved dorsal fin. Colouration is almost uniformly gun-metal grey along the flanks, back and flippers. In common with other species, the underside is pale.<br>Behaviour: They are a very active species that regularly breach acrobatically, bow ride boats, tail slap and stun prey by surface rushing. Aggressive interactions have been recorded with harbour porpoises, often resulting in the porpoise’s death from internal injuries caused by being repeatedly rammed.<br>In Ireland: Three separate populations have been identified using genetic studies and photo-identification in the Shannon Estuary, coastal and offshore waters. Some dolphins in the coastal population have been documented moving along the Irish coast and even north to Scotland while the Shannon population is resident to the estuary and surrounding areas and little is known about the offshore population. Since the late 2010’s there has been an increase of sightings in the north, northeast of Ireland. Strandings happen annually with most individuals found in Cos Mayo, Kerry and Clare.</p>
-  
-</section>
-
-<section id ="bowhead">
-  
-    <h4>Bowhead Whale</h4>
-    <aside><a id='mk931SjRRYx4p6U0hlnO1A' class='gie-single' href='https://www.gettyimages.com/detail/1165303822' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'mk931SjRRYx4p6U0hlnO1A',sig:'ZA-_zpmI6CVixWjVj1qOZBKduXIpTtXxgSvJ4OKX2jc=',w:'50px',h:'50px',items:'1165303822',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description: They are an extremely robust whale with a double hump profile when seen side on. They have no dorsal fin, broad flippers and a diagnostic “bow” shaped upper jaw. The blowhole features prominently at the top of the head. Their colour is black throughout the body apart from a diagnostic white “bib” on the lower jaw and a grey band before the tail fluke. Their baleen plates are 4 m and are black in colour.<br>Behaviour: A 6 m v-shaped blow is produced and they fluke before deep dives. Feeding is by a skimming technique. They can break through 20 cm thick ice to create breathing holes.<br>In Ireland: This rare Arctic vagrant has been confirmed once by IWDG in Irish waters, when a small individual was photographed at the mouth of Carlingford Lough, Co. Louth/Down in May of 2016.</p>
-
-</section>
-
-<section id="common">
-  
-  <h4>Common Dolphin</h4>
-  <aside><a id='IKk0NK_IRi95x4yhUIX8ug' class='gie-single' href='https://www.gettyimages.com/detail/2246591222' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'IKk0NK_IRi95x4yhUIX8ug',sig:'xgqpay-JOGFC5Jd4MWglyH-_rDn6E9Bc1e-MDNcK84U=',w:'50px',h:'50px',items:'2246591222',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description: A small, sleek dolphin with an obvious narrow beak and a falcate dorsal fin. Its sides are coloured with a diagnostic “hourglass” pattern that is yellow near the head and grey towards the tail. It is dark grey above from the head to the dorsal fin and its underside is pale.<br>Behaviour: Breaching regularly takes place along with side slaps. They will regularly bow ride boats and large whales. They move quickly while travelling and corral fish into “bait balls” at the surface while feeding.<br>In Ireland: Common dolphins are one of the most frequently sighted cetacean in Irish waters. While the south coast remains a hotspot for this species, there has been a notable northwards shift in sightings. They are by far the most frequently stranded cetacean in Ireland, with the IWDG identifiying several stranding hotspots along the coast.  Since 2011 a near continious and drastic increase of strandings has been noted. In the early 2010’s strandings averaged at 20 – 40 annually however in the early 2020s this has risen to 150 – 240. The cause of this increased mortality is currently unknown.</p>
-
-</section>
-
-<section id="cuvierbeaked">
-  
-  <h4>Cuvier's Beaked Whale</h4>
-  <aside><a id='J5qgL4ESS2Vm2_KT7xRmQQ' class='gie-single' href='https://www.gettyimages.com/detail/1238034411' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'J5qgL4ESS2Vm2_KT7xRmQQ',sig:'AilkJssiP1yP6EVu5v69_3iJmHKK1VdLYfN9kxfpkFM=',w:'50px',h:'50px',items:'1238034411',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description: A robust whale with an almost conical shaped head, broad body and a compactly curved dorsal fin. A pair of pointed teeth are present at the tip of the lower jaw in males. Colouration can vary greatly from light brown to dark grey. Males can be extensively scarred along the body, particularly around the head from wounds inflicted by competing males of same species.<br>Behaviour: Breaching may occur while resting at the surface. They perform the deepest known dives of any cetacean, with a record of almost 3,000 m during a 137 minute dive.<br>In Ireland: Only a single sightings of Cuvier’s beaked whales were recorded in Ireland when a research survey discovered a pod off the Rockall Through. Cuvier’s beaked whales have stranded semi-frequently in Ireland since 1991, with near annually strandings since 2000.  An unprecedented UME (Unusual Mortality Event) was recorded between August and September of 2018, when 24 dead Cuvier’s beaked whales were recorded. An ASCOBAN investigation suggested anthropogenic noise as a potential casuafactor.</p>
-
-</section>
-
-<section id="gervaisbeaked">
-  
-  <h4>Gervais Beaked Whale</h4>
-  <p>Description: A sleek whale with a broad beak that blends into the head smoothly. Its dorsal fin is set two-thirds along the back and is triangular in shape to a curved point. Its flippers are small in proportion to the body but its distinguishing feature is the male’s pair of triangular teeth set ¾ of the way along the lower jaw. The colouration is light grey overall with a black patch around the eye and a white underside.<br>Behaviour: Little is known about this species globally. They are believed to move in small groups like other beaked whale species, undertake deep foraging dives and breach occasionally.<br>In Ireland: This species’ presence in Ireland was confirmed by two stranded animals. A historical stranding’s skeleton is still on display in the Ulster Museum in Belfast. In 2011 a second stranding was foun on Mullet Peninsula in Co. Mayo.</p>
-
-</section>
-
-<section id="harbour">
-  
-  <h4>Harbour Porpoise</h4>
-  <aside><a id='6eQzaZyfS5dYf0kRSxrwAA' class='gie-single' href='https://www.gettyimages.com/detail/1831048471' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'6eQzaZyfS5dYf0kRSxrwAA',sig:'KsMVIINxqtXqJqMCGenZzUfEQ_WR8M32TNsZo71vhfM=',w:'50px',h:'50px',items:'1831048471',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description: A very compact species with a rounded head, diagnostic small, triangular dorsal fin situated mid-way along the back and short paddle-like flippers. The upper side is dark grey which blends into a lighter shade along both sides while the underside is white. A dark grey line links the mouth line to the flippers.<br>Behaviour: Generally appears shy and avoids other species and boats. The surfacing sequence is usually extremely brief even when swimming slowly. Breaching occasionally takes place but this species appears most active when feeding as it circles quickly in pursuit of prey.<br>In Ireland: Harbour porpoises are the most abundant cetacean species in Ireland and can be seen easily in any inshore waters, especially in calm sea conditions. They are particularly abundant between Howth Head and Dalkey off Co. Dublin where boat based surveys conducted by IWDG produced the highest counts anywhere in Ireland.</p>
-
-</section>
-
-<section id="humpback">
-  
-  <h4>Humpback Whale</h4>
-  <aside><a id='itmBlL30R5duHzyfi3SY8A' class='gie-single' href='https://www.gettyimages.com/detail/1611284251' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'itmBlL30R5duHzyfi3SY8A',sig:'nCHS14NKZ_VzkZh9fYzsaJvaDp7ZMYyCYBQ2wxLHPbA=',w:'50px',h:'50px',items:'1611284251',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description: Predominantly black in colour with elongated white flippers that are 1/3 of the body’s length. Tubercles (sensory bumps) are around the top of the head. They have an irregularly shaped and relatively small dorsal fin and knuckle like ridges along the tail stock.<br>Behaviour: This species shows a low, bushy blow when surfacing. They regularly breach and slap their flippers at the surface, but they are most famous for tail-fluking prior to a deep dives.<br>In Ireland: At least 136 individual humpback whales have been recorded to date (2024) in Irish waters using photo-identification since 1999. Many of these return to the same areas of the southwest year after year, and some have even been recorded over three decades. Others have been recorded internationally off Gibraltar, the Netherlands, Norway and Iceland. Since 2015 sightings of humpback whales in Ireland has increased, with a northbound distribution shift towards donegal bay noted. Strandings of humpback whales are rare in Ireland with only 9 recorded since 1991.</p>
-
-</section>
-
-<section id="longfinnedpilot">
-  
-    <h4>Long-Finned Pilot Whale</h4>
-    <aside><a id='6yJKBLrNRNh_6wxL7wjjhg' class='gie-single' href='https://www.gettyimages.com/detail/1279040172' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'6yJKBLrNRNh_6wxL7wjjhg',sig:'rHF1hpeVherxx9mSTCbRMQ5uKDLsqZfbcgA7KjRVI8U=',w:'50px',h:'50px',items:'1279040172',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-    <p>Description: The second largest member of the dolphin family has a bulky body with a protruding bulbous head, characteristic elongated flippers with a backswept and rounded dorsal fin that is broader on adult males than females. Colouration is black throughout the body with a light grey “bib” on the throat.<br>Behaviour: An inquisitive species that will regularly approach vessels and spy-hop in close-knit groups. They rarely breach but may be seen associating with bottlenose or Atlantic white-sided dolphins on occasion.<br>In Ireland: Pilot whales frequent deep water habitats along the Rockall trough and continental shelf year-round. Sightings of this species in inshore waters are rare and likely to be associated with live stranding events. They are the species most likely to mass strand in Ireland but may also be suitable candidates for rescue and refloat attempts.</p>
-  
-</section>
-
-<section id="minke">
-  
-    <h4>Minke Whale</h4>
-    <aside><a id='Ny62SocZQE1G18_TVXaLSw' class='gie-single' href='https://www.gettyimages.com/detail/996380798' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'Ny62SocZQE1G18_TVXaLSw',sig:'7I6nxZ1wkSwpTxhT2e2FyfQcZuQGlOepA7D0VQbuvE0=',w:'50px',h:'50px',items:'996380798',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-    <p>Description: This species’ diagnostic feature is its white “arm band” which wraps around each flipper and are visible underwater at close range. They have a pointed head and a “sickle shaped” dorsal fin situated two thirds along the body. Their colouration is black overall with a white underside and cream coloured baleen plates.<br>Behaviour: Minke whales tend to be wary of boats where they surface intermittently and disappear. They occasionally become inquisitive and approach vessels while spy hopping. Blows are rarely visible, but are frequently audible and they occasionally breach and may well breach more frequently in choppier seas.<br>In Ireland: Minke whales are Irelands smallest and most abudant baleen whale. They are spotted from the spring to mid winter months feeding in the coastal waters, most frequently seen in the south, southwest of Ireland.Strandings occure annually, predominantly on the west coast of Ireland. While most years 1-6 minke whales are found stranded, 14 and 12 were found in 2021 and 2023 respectively.</p>
-  
-</section>
-
-<section id="pygmysperm">
-  
-    <h4>Pygmy Sperm Whale</h4>
-    <aside><a id='HnIi7JAhTwl-M2InF14ABg' class='gie-single' href='https://www.gettyimages.com/detail/666182' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'HnIi7JAhTwl-M2InF14ABg',sig:'zgVfu6L6J_zBYhfQNPXYzsfKp5HRLLXBWM2qUnxka5w=',w:'50px',h:'50px',items:'666182',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-    <p>Description:The body’s overall appearance is stocky with a square head and triangular dorsal fin ¾ way along the back. Narrow, pointed teeth are only present in the lower jaw. The body’s colouration is light grey along its upper surface and light white underneath. A diagnostic “false gill” is present on the side of the head which gives an overall shark-like appearance.<br>Behaviour: Very little is known about this species globally. They are inconspicuous at the surface due to their small size, do not appear to approach boats but occasionally breach.<br>In Ireland: Including historical records dating back to 1966, 11 pygmy sperm whales were found stranded in Ireland. Most were found on the south, southwest coast with additional sightings in Dublin and Wexford. One whale was salvaged by the IWDG and its skeleton is on display in the Shannon Dolphin Centre. This species has never been observed alive in Irish waters.</p>
-  
-</section>
-
-<section id="risso">
-  
-    <h4>Risso's Dolphin</h4>
-    <aside><a id='GxOZUMA-SJVG3T9b4VEDZg' class='gie-single' href='https://www.gettyimages.com/detail/153605329' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'GxOZUMA-SJVG3T9b4VEDZg',sig:'pKVuIHT8QCeggh8JiTFIfOlSEyfxTAEaR0mmcGkDupo=',w:'50px',h:'50px',items:'153605329',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-    <p>Description: A large bulky dolphin with a bulbous head, no beak, a tall curved dorsal fin and elongated flippers. Colouration changes over a dolphin’s lifetime, from dark grey to light grey and pale or even white due to extensive scarring inflicted by other individuals during social interactions. The older the individual the paler they become. The fluke and flippers remain dark when mature. Up to 3-7 pairs of teeth are present in the lower jaw only.<br>Behaviour: They typically avoid boats but on rare occasion may bow ride. They can be very active and breach on multiple occasions or “porpoise” fast at the surface while travelling.<br>In Ireland: They favour inshore waters and offshore Islands especially off Saltee Islands, Co. Wexford, the Cork coast and the Blasket Islands, Co. Kerry during the summer months in contrast to deep-water habitats elsewhere in the world. Risso’s dolphins have been found stranded annually with some years recording up to 7 stranding events.</p>
-  
-</section>
-
-<section id="sowerbybeaked">
-  
-    <h4>Sowerby's Beaked Whale</h4> 
-    <p>Description: A slim whale with an elongated, narrow beak and rounded forehead. The dorsal fin is triangular curving to a point while the flippers are small and inconspicuous. Males characteristically have two triangular teeth present mid-way along the lower jaw. The back and sides are a dark grey to chocolate brown colour with white undersides. Males are usually extensively scarred.<br>Behaviour: Their beak emerges from the water at a very steep angle while surfacing. They may breach occasionally and tail slap. This species can reach depths of 1,500 m over 30 minute foraging dives.<br>In Ireland: While Sowerby’s beaked whales have been sighted in Ireland once and acoustically recorded repeatedly, most information comes from the multiple strandings. Reports have become more regular since the late 2010s with strandings varying from none to 4 annually.</p>
-  
-</section>
-
-<section id="striped">
-  
-    <h4>Striped Dolphin</h4>
-    <aside><a id='NxzFMCNWT_V98Gerlh6j_Q' class='gie-single' href='https://www.gettyimages.com/detail/dv118031' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'NxzFMCNWT_V98Gerlh6j_Q',sig:'Cvi52Fw6E3_iUCERz_0KDcAMulDy_uXoJjvC2tM6nmM=',w:'50px',h:'50px',items:'dv118031',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-    <p>Description: A slender, streamlined dolphin with a long narrow beak and falcate dorsal fin. Its diagnostic stripe runs from the eye to the anus along both sides of the body, while a shorter stripe runs from the eye towards the pectoral fin. Its underside is predominantly white. A light grey streak occurs just under the dorsal fin.<br>Behaviour: Large pods may be seen moving fast with synchronised breaches on occasion. They breach regularly where they may land on their sides. They may bow ride vessels.<br>In Ireland: Striped dolphins tend to frequent offshore waters along the continental shelf but they strand regularly along Atlantic coasts. Knowledge is limited on the species off Ireland but Irish waters are likely to represent the northern limit of their range.</p>
-</section>
-
-<section id="truebeaked">
-  
-    <h4>True's Beaked Whale</h4>
-    <aside><a id='z5L4x69WTelT27p3UpuEvQ' class='gie-single' href='https://www.gettyimages.com/detail/451201442' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'z5L4x69WTelT27p3UpuEvQ',sig:'9akFY7Sz8lXGK2sYFZ6Z34mdaatVeDA4C-k_C21D9ho=',w:'50px',h:'50px',items:'451201442',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-    <p>Description: A streamlined whale with an obviously protruding beak, slightly bulging forehead, small flippers and a small curved dorsal fin situated two thirds along the back. Males have a pair of teeth near the tip of the lower jaw. Colouration may vary from a light blue hue along the sides to light grey along the back and sides with a white underside.<br>Behaviour: Occasionally breaches and appears to travel in small groups. This species, in common with other beaked whale species, undertakes deep foraging dives.<br>In Ireland: Much of what is known about this species comes from stranding records. Along with the 9 historical records, 9 True’s beaked whales have been found between 1991 – 2024 along the west coast.</p>
-  
-</section>
-
-<section id="whitebeaked">
-  
-    <h4>White Beaked Dolphin</h4>
-    <aside><a id='bMRgLOmiTSlVi58-F8IEzw' class='gie-single' href='https://www.gettyimages.com/detail/1021620308' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'bMRgLOmiTSlVi58-F8IEzw',sig:'AB4825QXcjkydtA59hxbtE_Z7WBNe1jKhj-aFYe-SMM=',w:'50px',h:'50px',items:'1021620308',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-    <p>Description: A very robust dolphin with a small beak and tall, curved dorsal fin. They have a complex colouration pattern with a white beak, dark grey along the back and white underneath with a diagnostic saddle patch behind the dorsal fin.<br>Behaviour: Breaching sometimes occurs and they may be seen associating with other species. They bow-ride vessels infrequently.<br>In Ireland: Little is known about this species in Irish waters but as expected of a cold water shelf species, most sighting in Irish waters are from the Northwest region where they appear to be most abundant in offshore waters off counties Mayo and Donegal.</p>
-  
-</section>
-
-<section id="falsekiller">
-  
-  <h4>False Killer Whale</h4>
-  <aside><a id='dOv5-PgHQOpw8Nmw9V3u_w' class='gie-single' href='https://www.gettyimages.com/detail/551987127' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'dOv5-PgHQOpw8Nmw9V3u_w',sig:'eTLJc8QtHbK8Zo7StvMkSuYlzKHJS45fJ4m8nF_5tYs=',w:'50px',h:'50px',items:'551987127',caption: true ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script></aside>
-  <p>Description:Torpedo-like in shape, with a rounded head, tall curved dorsal fin with slightly elongated flippers. Dark black in colour throughout the body with a light grey “bib” on the throat.<br>Behaviour: They tend to avoid boats but do occasionally spy-hop and breach. They move in small, close-knit groups that range in size up to 20 individuals.<br>In Ireland: Very little is known about this species given it has been sighted only a handful of times offshore in the Porcupine Seabight and Rockall Bank predominantly during the summer months and a skull was recovered from the River Moy, Co. Mayo in 1967.</p>
-
-</section>
-
-</section>
-<h3>Pinnipeds</h3>
-<section id = "pinnipeds">
-  <p>Irelands native seal populations areKeystone Species. They are VITAL to the Irish marine ecosystem. Seals have inhabited the Irish coastline for millennia playing a critical role in balancing the ecosystem and recycling nutrients.  They are also a bio-indicator species. Researching issues or changes occurring in wild seal populations helps us to identify greater environmental issues, that we can strive to address. Worldwide, predators of seals include large shark species and killer whales. However, these large predators are no longer found in high numbers in Irish waters, therefore seals and cetaceans (whales and dolphins) reign as apex predators. As such they are considered ‘doctors’ of the marine ecosystem. The intricate predator-prey dynamics and processes of natural selection, result in apex predators removing weak individuals from prey populations, supporting a stronger evolution of species in the ocean.</p>
+  <p>Some species are migratory and follow food here like humpback and fin whales off the southwest and south coast while others are resident year-round in special places like the Shannon Estuary where at least 145 bottlenose dolphins live.</p>
+  <p>A myriad of marine habitats occur in our waters from sheltered bays to the continental shelf and complex canyon systems affording each of our 25 specialised species a place to live, feed and breed which makes Irish waters one of the most important places in Europe for cetaceans.</p>
+  <p>Of the 24 cetacean species reported in Ireland, ten species (Harbour porpoise, Atlantic white-sided dolphin, White-beaked dolphin, Bottlenose dolphin, Common dolphin, Risso’s dolphin, Killer whale, Northern bottlenose whale, Long-finned pilot whale and Sperm whale) are thought to be present year-round while it is possible that Cuvier’s beaked whale and Sowerby’s beaked whale are also resident in deep-water gullies off the western seaboard. Six species (Minke whale, Blue whale, Fin whale, Sei whale, Humpback whale and Striped dolphin) are thought to be seasonally present and six species (Northern right whale, White whale or beluga, False killer whale, Gervais’ beaked whale, True’s beaked whale and Pygmy sperm whale) are thus far classified as rarely occurring or vagrant.</p>
+</article>
+<article class = "wallpaper">
+  <h4>Pinnipeds:</h4>
+  <p>Irelands native seal populations are Keystone Species. They are VITAL to the Irish marine ecosystem. Seals have inhabited the Irish coastline for millennia playing a critical role in balancing the ecosystem and recycling nutrients.</p>
+  <p>They are also a bio-indicator species. Researching issues or changes occurring in wild seal populations helps us to identify greater environmental issues, that we can strive to address. Worldwide, predators of seals include large shark species and killer whales. However, these large predators are no longer found in high numbers in Irish waters, therefore seals and cetaceans (whales and dolphins) reign as apex predators. As such they are considered ‘doctors’ of the marine ecosystem.</p>
+  <p>The intricate predator-prey dynamics and processes of natural selection, result in apex predators removing weak individuals from prey populations, supporting a stronger evolution of species in the ocean.</p>
   <p>Both of Irelands natives, the Grey and Common seals, are known as True Seals; they lack an external ear and simply have an opening on either side of the head. True seals are also slow and clumsy on land, using their bodies to bounce along the ground, whereas eared seals have a rotating pelvis which enables them to “walk” more easily on land, same as the walrus. Walrus are the only remaining members of the Odobenids and are easily recognised by their characteristic tusks.</p>
-  <section id = "commonseal"><h4>Common Seals</h4>
-  <p>Common seals, also known as harbour seals, are charismatic marine mammals found along coastlines worldwide. With distinctive V-shaped nostrils and spotted coats, they play vital roles in marine ecosystems despite facing population declines in recent years.</p>
-  </section>
-  <section id = "greyseal"><h4>Grey Seals</h4>
-  <p>Grey seals, also known as Atlantic seals, are majestic marine mammals inhabiting the coasts of Ireland. With distinctive grey coats and endearing faces, they play crucial roles in marine ecosystems, contributing to biodiversity and captivating hearts worldwide.</p>
-</section>
+</article>
+<section id="animals">
+<h4>Images of the Ireland's Marine Mammals</h4>
+<img src="images/duodolphin.jpg" width="250" height="250" alt="two dolphins together">
+<img src="images/pinniped.jpg" width="250" height="250" alt="seal on sandy beach">
+<img src="images/whale.jpg" width="250" height="250" alt="whale flipping into water">
 </section>
     </main>
     <footer>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
         <p>&copy; Copyright 2026</p>
     </footer>
 </body>

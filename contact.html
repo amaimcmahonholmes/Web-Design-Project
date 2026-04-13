@@ -4,11 +4,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name = "viewport" content="width=device-width,initial-scale=1.0">
-  <meta name = "description" content="Index Page of Marine Mammals Website.">
-  <meta name = "keywords" content="Boilerplate, Section, Footer">
+  <meta name = "description" content="to submit a query in regards the website or to give feedback about the website">
+  <meta name = "keywords" content="Contact, Form, Details, Name, Email, Message">
 
   <link rel = "icon" href="images/favicon/favicon.ico" type="image/x-icon">
   <link rel = "stylesheet" href="styles/style.css">
+  <style>
+#form {
+    background-size: cover;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-style:dashed;
+    border-color: #000411;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.706);
+}
+#ocean{
+  background-image:url("images/water.jpg");
+  background-size: cover;
+}
+.requirement{
+  color:red;
+}
+
+</style>
 
   <title>Contact</title>
 </head>
@@ -21,7 +42,7 @@
 
         <li><a href="about.html">About</a>
           <ul class="dropdown">
-            <li><a href="about.html#conservation">Conservation</a></li></ul></li>
+            <li><a href="about.html#conservation">Status</a></li></ul></li>
 
         <li><a href="services.html">Services</a>
           <ul class="dropdown">
@@ -38,39 +59,43 @@
 </header>
 
 <main id = "ocean">
-<section id="contact_info">
-
-</section>
 
 <section id="form">
 
 <h2>Contact Details</h2>
 
-<h2>Contact Form</h2>
+<fieldset>
+<legend><strong>Contact Form</strong></legend>
 
-<form action="https://formspree.io/f/xbdzpypz" method="post">
+<form action="http://foo.com" method="get">
 
-<label for="full_name">Name:</label>
+<label for="full_name"><strong>Name:</strong><span class="requirement">*</span></label>
 <input type="text" name="full_name" id="full_name" required autofocus><br>
 
-<label for="email">Email:</label>
+<label for="email"><strong>Email:</strong><span class="requirement">*</span></label>
 <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
 
-<label for="message">Query:</label>
+<label for="message"><strong>Query:</strong><span class="requirement">*</span></label>
 <textarea id="message" name="message" rows="6" cols="40" maxlength="200"
 placeholder="Your message must be less than 200 characters"></textarea><br>
 
-<input type="submit" value="Submit">
-<input type="reset">
-
+<input type="submit" value="Submit" id="button">
+<input type="reset" id="reset">
 </form>
+</fieldset>
 
 </section>
 
 </main>
 
 <footer>
-<p>&copy; Marine Mammal Conservation</p>
+  <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+<p>&copy; Copyright 2026</p>
 </footer>
 
 </body>
