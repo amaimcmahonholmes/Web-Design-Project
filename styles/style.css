@@ -219,11 +219,6 @@ iframe{
   padding: 10px;
 }
 aside {
-  width: 50%;
-  margin-left: 15px;
-  float:inline-end;
-  font-style: italic;
-  background-color: rgba(0, 136, 255, 0.351);
 }
 
 .maps{
@@ -256,10 +251,16 @@ th{
 .gie-single{
   float:right;
   margin:10px;
-  width:50px !important;
-  height:50px !important;
 }
 :target{
   background: #2f00ff7a;
   display:inline;
+}
+.serviceclass{
+  width: 50%;
+  margin-left: 15px;
+  float:inline-end;
+  font-style: italic;
+  background-color: rgba(0, 136, 255, 0.351);
+
 }
